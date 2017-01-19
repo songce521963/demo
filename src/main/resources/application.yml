@@ -1,0 +1,26 @@
+# SPRING RESOURCES HANDLING (ResourceProperties)
+spring.resources.chain.cache: false
+spring.resources.cache-period: 86400
+spring.resources.chain.strategy.content.enabled: true
+spring.resources.chain.strategy.content.paths: /**
+
+# EMBEDDED SERVER CONFIGURATION (ServerProperties)
+server.error.whitelabel.enabled: true
+
+# SERVER SETTINGS  
+server:  
+    port: 8888
+    
+# DATA_SOURCE  
+#spring.datasource:
+    #dataSourceClassName: com.alibaba.druid.pool.DruidDataSource
+    #url: 
+    #databaseName: test
+    #serverName: 127.0.0.1
+    #username: root
+    #password: root 
+    #cachePrepStmts: true
+    #prepStmtsSize: 250
+    #prepStmtsCacheSqlLimit: 2048
+    #userServerPrepStmts: true
+  
